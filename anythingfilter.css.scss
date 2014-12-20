@@ -1,0 +1,19 @@
+.anythingfilter {
+  position: relative;
+
+ .clear-button {
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin: auto;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
